@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxd;
+}
+a{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+/*hero*/
+.hero{
+     background-image: url(../photo/_intro-bg\ -\ Copy.jpg);
+      
+    height: 100vh;
+}
+.nave{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.navee ul{
+    display: flex;
+    color: black;
+    font-size: 18px;
+     
+}
+.navee  li a{
+    padding: 15px 10px;
+    transition: all;
+}
+
+.navee ul .cont{
+    color: darkgreen;
+}
+.navee ul li:hover a{
+    font-size: 22px;
+    color:darkgreen;  
+ }
+ 
+ 
+.navee ul li{
+ color: aliceblue;
+    list-style: none;
+    
+}
+.navee li a{
+    text-decoration: none; 
+     
+}
+.navee h3{
+    font-size: 28PX;
+    color: aliceblue;
+}
+.hero-layer{
+    background-color: rgba( 0, 0, 0,0.5);
+    height: 100vh;
+}
+ 
+ 
+ .nav-item{
+    position: relative;
+    transition: 0.3s all;
+    
+ }
+ .nav-item:hover  li{
+    color: rgb(49, 137, 49);
+    position: absolute;
+ }
+ .hero .hero-caption{
+    
+    color: aliceblue;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+      }
+      .hero-caption p{
+       padding: 20px 20px;
+       font-size: 1.7rem;
+      } 
+      .hero-caption h1{
+       font-size: 2.7rem;
+      }
+    .hero-caption .btn{
+       font-size: 18px;
+       padding: 0.8rem 2rem ;
+       border: 2px solid darkgreen ;
+       background-color: transparent;
+       border-radius: 22px;
+       transition: all;
+    }
+    .hero-caption .btn:hover{
+        background-color: darkgreen ;
+        color: aliceblue;
+       }
+     .hero h1::after{
+       content: "";
+       padding-left: 20px;
+       color: white;
+       animation: simoneName infinite 10s;
+   
+     }
+   @keyframes simoneName {
+       0% {
+           content: "S|";
+       }
+   
+       1% {
+           content: "Si|";
+       }
+   
+       2% {
+           content: "Sim|";
+       }
+   
+       3% {
+           content: "Simo|";
+       }
+   
+       4% {
+           content: "Simon|";
+       }
+   
+       5% {
+           content: "Simone|";
+       }
+   
+       6% {
+           content: "Simone O|";
+       }
+   
+       7% {
+           content: "Simone Ol|";
+       }
+   
+       8% {
+           content: "Simone Oli|";
+       }
+   
+       9% {
+           content: "Simone Oliv|";
+       }
+   
+       10% {
+           content: "Simone Olivi|";
+       }
+   
+       20% {
+           content: "Simone Olivia|";
+       }
+   
+       21% {
+           content: "Simone Olivi|";
+       }
+   
+       22% {
+           content: "Simone Oliv|";
+       }
+   
+       23% {
+           content: "Simone Oli|";
+       }
+   
+       24% {
+           content: "Simone Ol|";
+       }
+   
+       25% {
+           content: "Simone O|";
+       }
+   
+       26% {
+           content: "Simone|";
+       }
+   
+       27% {
+           content: "Simon|";
+       }
+   
+       28% {
+           content: "Simo|";
+       }
+   
+       29% {
+           content: "Sim|";
+       }
+   
+       30% {
+           content: "Si|";
+       }
+   
+       31% {
+           content: "S|";
+       }
+   
+       32% {
+           content: " a|";
+       }
+   
+       33% {
+           content: " a F|";
+       }
+   
+   
+       34% {
+           content: " a Fr|";
+       }
+   
+   
+       35% {
+           content: " a Fre|";
+       }
+   
+       36% {
+           content: " a Free|";
+       }
+   
+   
+       37% {
+           content: " a Freel|";
+       }
+   
+   
+       38% {
+           content: " a Freela|";
+       }
+   
+   
+       39% {
+           content: " a Freelan|";
+       }
+   
+   
+       40% {
+           content: " a Freelanc|";
+       }
+   
+   
+       41% {
+           content: " a Freelance|";
+       }
+   
+   
+       42% {
+           content: " a Freelancer.|";
+       }
+   
+       52% {
+           content: " a Freelancer|";
+       }
+   
+       53% {
+           content: " a Freelance|";
+       }
+   
+       54% {
+           content: " a Freelanc|";
+       }
+   
+       55% {
+           content: " a Freelan|";
+       }
+   
+       56% {
+           content: " a Freela|";
+       }
+   
+       57% {
+           content: " a Freel|";
+       }
+   
+       58% {
+           content: " a Free|";
+       }
+   
+       59% {
+           content: " a Fre|";
+       }
+   
+       60% {
+           content: " a Fr|";
+       }
+   
+       61% {
+           content: " a F|";
+       }
+   
+       62% {
+           content: " a| ";
+       }
+   
+       63% {
+           content: " a P|";
+       }
+   
+       64% {
+           content: " a Ph|";
+       }
+   
+       65% {
+           content: " a Pho|";
+       }
+   
+       66% {
+           content: " a Phot|";
+       }
+   
+       67% {
+           content: " a Photo|";
+       }
+   
+       68% {
+           content: " a Photog|";
+       }
+   
+       70% {
+           content: " a Photogr|";
+       }
+   
+       71% {
+           content: " a Photogra|";
+       }
+   
+       72% {
+           content: " a Photograp|";
+       }
+   
+       73% {
+           content: " a Photograph|";
+       }
+   
+       74% {
+           content: " a Photographe|";
+       }
+   
+       75% {
+           content: " a Photographer.|";
+       }
+   
+       80% {
+           content: " a Photographe|";
+       }
+   
+       81% {
+           content: " a Photograph|";
+       }
+   
+       82% {
+           content: " a Photograp|";
+       }
+   
+       83% {
+           content: " a Photogra|";
+       }
+   
+       84% {
+           content: " a Photogr|";
+       }
+   
+       85% {
+           content: " a Photog|";
+       }
+   
+       86% {
+           content: " a Photo|";
+       }
+   
+       87% {
+           content: " a Pho|";
+       }
+   
+       88% {
+           content: " a Ph|";
+       }
+   
+       89% {
+           content: " a P|";
+       }
+   
+       90% {
+           content: " a|";
+       }
+   
+       91% {
+           content: " a D|";
+       }
+   
+       92% {
+           content: " a De|";
+       }
+   
+       93% {
+           content: " a Des|";
+       }
+   
+       94% {
+           content: " a Desi|";
+       }
+   
+       95% {
+           content: " a Desig|";
+       }
+   
+       96% {
+           content: " a Design|";
+       }
+   
+       97% {
+           content: " a Designe|";
+       }
+   
+       100% {
+           content: " a Designer.|";
+       }
+   
+   }
+   /*about*/
+   
+.about{
+    padding: 70px 20px;
+     
+}
+.about-heding{
+position: relative; 
+text-align: center;
+padding: 30px;
+}
+.about-heding h2{
+font-size: 8rem;
+left: 20%;
+color: rgb(189, 175, 175);
+position: absolute;
+opacity: 0.4;
+z-index: 1;
+  bottom: 0;
+  font-weight: 600px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+  
+}
+.about-heding p{
+position: relative;
+ 
+ font-size: 2.6rem;
+}
+ p::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    background-color:  darkgreen;
+    bottom: 0;
+    left: 45%;
+ 
+ }
+ .containr{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+ }
+ .about-cont{
+width: 60%;
+ 
+padding: 20px 40px;
+ }
+ .about-cont h3{
+    font-size: 2rem;
+ }
+ .about-cont h3 .span{
+      color: darkgreen;
+ }
+ .sa{
+    color: darkgreen; 
+ } 
+ .sa1{
+    font-size: 20px;
+ }
+.about-cont p{
+    padding: 20px 0;
+}
+
+ .about-lest{
+ padding: 20px 20px;
+width: 40%;
+ 
+ padding-left: 60px;
+ }
+  
+  
+ .btn2{
+ padding: 50px;
+background-color: transparent;
+border-radius: 15px;
+font-size: 20px;
+padding: 15px;
+position: relative;
+transition: all;
+background-color: rgb(96, 212, 96);
+ 
+ }
+ .btn2:hover{
+    background-color: darkgreen;
+     
+ }
+ .about-lest ul li{
+padding: 8px;
+position: relative;
+ }
+ li::after{
+    content: "";
+    width: 250px;
+    height: 1px;
+    background-color: rgb(174, 160, 160);
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+ }
+
+ .about-item{
+    text-align: center;
+    border-left: 2px rgb(58, 57, 57) dotted;
+    padding-left: 25px;
+ }
+ .about-item h4{
+    font-size: 3rem;
+    color: rgb(93, 89, 89);
+ }
+ .about-item h5{
+    font-size: 1.5rem;
+    color: rgb(144, 137, 137);
+ }
+ .spacial{
+    border-left: 0;
+ } 
+ /*wahat*/  
+
+.containr{
+ padding: 50px;
+ background-color: rgb(220, 213, 213);
+}  
+.what-left{
+display: flex;
+flex-direction: column;
+
+}
+.graph{
+    display: flex;
+}
+.graph-icon{
+    padding: 20px;
+    color: rgb(64, 142, 19);
+    font-size: 30px;
+}
+.graph1 h3{
+    font-size: 25px;
+}
+.graph1 p{
+    font-size: 20px;
+    padding: 30px ;
+}
+.waht-right{
+    display: flex;
+ flex-direction: column;
+}
+/*Resume*/
+.resume{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px;
+   
+}
+.left h3{
+    left: 10px ;
+}
+.left button{
+    background-color: darkgreen;
+}
+.left h6{
+    color: crimson;
+}
+.card{
+     margin:10px 20px ; 
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bo{
+    display: flex;
+}
+.bo1{
+    padding: 10px 20px;
+    width: 48%;
+  margin: 10px 10px;}
+ .progress-bar{
+ background-color: darkgreen;    
+}
+/*portfolio*/
+.PORTFOLIO{
+    padding: 50px;
+}
+.PORTFOLIO .containr{
+    display: flex;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+   
+}
+.item1{
+ position: relative;
+    transition: all 1s;
+}
+ 
+.item1 img{
+    display: block;
+    width: 100%;
+    padding: 10px;
+ }
+.layer{
+position: absolute;
+background-color: rgba(0, 0, 0, 0.8);
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0;
+}
+.item:hover .layer{
+opacity: 1;
+}
+ 
+.layer h4{
+font-size: 30px;
+}
+.layer h6{
+font-size: 25px;
+}
+
+
+ ul{
+    display: flex;
+    justify-content:center;
+    
+     padding: 10px;
+    
+ }
+ li{
+ padding-inline: 30px;    
+ }
+ /*Client*/
+ .client{
+    display: flex;
+    justify-content: space-between;
+ }
+ .cl1 img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 20px 10px;
+ }
+.cl1 .card{
+    background-color: rgb(221, 214, 214);
+ }
+  
